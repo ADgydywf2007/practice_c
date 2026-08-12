@@ -2,7 +2,7 @@
 int main()
 {
 	int height;
-	printf("«Î ‰»Î…Ì∏ﬂ:");
+	printf("Please input your metric height:");
 	scanf("%d",&height);
 	int inheight=(height/30.48)*12;
 	int foot=inheight/12;
